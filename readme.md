@@ -1,4 +1,5 @@
-﻿# Hermes (Discord Bot)
+[![Build](https://github.com/yutamago/HermesDiscordBot/actions/workflows/dotnet.yml/badge.svg)](https://github.com/yutamago/HermesDiscordBot/actions/workflows/dotnet.yml)
+# Hermes (Discord Bot)
 This bot delivers messages for you to any other channel you name, however it will not tell them who wrote it.
 You can either include the channel name where you sent the message from, or you can go fully anonymous.
 
