@@ -4,7 +4,7 @@ You can either include the channel name where you sent the message from, or you 
 
 ### [Invite](https://discord.com/api/oauth2/authorize?client_id=825365730173517824&permissions=8&scope=bot%20applications.commands)
 
-###Commands
+### Commands
 - `!send #channel Message...` Sends a message to the given channel. Prepends the sender channel name to the message.
 - `!secret #channel Secret Message...` Sends a message to the given channel. Omits the sender channel name.
 - `!help` Lists all commands
