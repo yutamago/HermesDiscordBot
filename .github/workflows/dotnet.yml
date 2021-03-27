@@ -23,14 +23,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Git Version
-      # You may pin to the exact commit or the version.
-      # uses: codacy/git-version@fa06788276d7492a2af01662649696d249ecf4cb
-      uses: codacy/git-version@2.4.0
-      with:
-        # The name of the release branch
-        release-branch: master
-        # The name of the dev branch
-        dev-branch: develop
     #- name: Publish
     #  run: dotnet publish -r linux-x64
